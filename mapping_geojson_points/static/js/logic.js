@@ -42,7 +42,6 @@ let sanFranAirport = {
 //         return L.marker(latlng)
 //             .bindPopup("<h2>" + feature.properties.name + "</h2> <hr> <h3>" + feature.properties.city + ", " + feature.properties.country + "</h3>")
 //     }
-
 // }).addTo(map);
 
 L.geoJSON(sanFranAirport, {
