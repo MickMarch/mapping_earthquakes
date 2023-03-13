@@ -19,10 +19,10 @@ There are many different folders for this project, but within the [earthquake_ch
 
 ### Usage Restrictions
 
-If anyone wishes to use code from any folder, you will need to create your own `config.js` file within whichever `*/static/js` folder. You will need to have your own `Mapbox API Token`. The `config.js` file should only contain the following line of code:
+If anyone wishes to use code from any folder, you will need to create your own `config.js` file within whichever `*/static/js` folder you run the `index.html` file from. You will need to have your own `Mapbox API Token`. The `config.js` file should only contain the following line of code:
 
 ```javascript
-const API_KEY = "YOUR MAPBOX API KEY HERE"
+const API_KEY = "YOUR MAPBOX API TOKEN HERE"
 ```
 
 ## Results
